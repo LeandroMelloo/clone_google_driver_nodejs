@@ -1,0 +1,42 @@
+{
+  "name": "gdrive-webapi",
+  "version": "1.0.0",
+  "description": "gdrive-webapi",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch --runInBand",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --no-cache --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMelloo/clone_google_driver_nodejs.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "HTTP-Server",
+    "Upload",
+    "Imagem",
+    "TDD"
+  ],
+  "author": "Leandro Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMelloo/clone_google_driver_nodejs/issues"
+  },
+  "homepage": "https://github.com/LeandroMelloo/clone_google_driver_nodejs#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "dependencies": {
+    "pino": "^6.13.2",
+    "pino-pretty": "^6.0.0",
+    "pretty-bytes": "^5.6.0",
+    "socket.io": "^4.2.0"
+  }
+}

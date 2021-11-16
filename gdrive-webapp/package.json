@@ -1,0 +1,29 @@
+{
+  "name": "gdrive-webapp",
+  "version": "1.0.0",
+  "description": "gdrive-webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMelloo/clone_google_driver_nodejs.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Jest",
+    "TDD",
+    "Upload",
+    "Imagem"
+  ],
+  "author": "Leandro Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMelloo/clone_google_driver_nodejs/issues"
+  },
+  "homepage": "https://github.com/LeandroMelloo/clone_google_driver_nodejs#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
+}
